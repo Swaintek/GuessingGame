@@ -1,0 +1,15 @@
+body {
+  background-color: #FCD49C;
+}
+
+h4 {
+  color: #392B4A;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
