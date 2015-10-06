@@ -3,6 +3,7 @@ var one = document.getElementById('one');
 var two = document.getElementById('two');
 var three = document.getElementById('three');
 var userName = prompt('Please enter your name.');
+var summary = document.getElementById('summary');
 alert('Welcome ' + userName + ', let\'s play a game!');
 
 var questions = ['Is Seattle a great music town?', 'Is Kurt Cobain dead?', 'Does Eddie Vedder love flannel?'];
@@ -48,7 +49,7 @@ ques1();
 ques2();
 ques3();
 
-alert('You got ' + correctAnswers + ' out of 3 answers correct, ' + userName + ', thanks for playing!');
+summary.innerHTML = 'You got ' + correctAnswers + ' out of 3 answers correct, ' + userName + ', thanks for playing!';
 
 console.log('Question 1 response: ' + question1);
 console.log('Question 2 response: ' + question2);
